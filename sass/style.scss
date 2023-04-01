@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    font-family: Ubuntu;
+}
+  
+.card {
+    width: 400px;
+    background-color: #dddddd;
+    border-radius: 8px;
+    overflow: hidden;
+    
+    &__img{
+        width: 100%;
+    }
+    
+    &__body{
+        padding: 10px 20px;
+    }
+
+    &__text{
+        margin: 20px 0;
+    }
+
+    &__btns{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__btn{
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 10px 20px;
+        cursor: pointer;
+
+        &--highlight{
+            background-color: #65ca8c;
+        }
+    }
+}
+  
